@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,cAAc,CAAA;EACV,KAAK,EAAC,MAAM;EACZ,MAAM,EAAC,MAAM;CAKhB;;AAPD,AAGI,cAHU,GAGN,GAAG,CAAA;EACH,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,IAAI;CACd",
+    "sources": [
+        "styes.module.scss"
+    ],
+    "names": [],
+    "file": "styes.module.css"
+}

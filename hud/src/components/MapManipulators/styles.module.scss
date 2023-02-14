@@ -1,0 +1,45 @@
+.topRightContainer {
+  position: fixed;
+  top: 2vh;
+  right: 2vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomRightContainer {
+  position: fixed;
+  bottom: 1vmax;
+  right: 1vmax;
+  display: flex;
+  flex-direction: column;
+}
+
+.manipulatorButton {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 2vh gray;
+  border-radius: 1vh;
+  overflow: hidden;
+  & > button {
+    display: flex;
+    background: transparent;
+    width: 5vh;
+    height: 5vh;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    & > svg {
+      width: 60%;
+      height: 60%;
+    }
+  }
+}
+
+.manipulatorButtonMargin {
+  margin: 1vh;
+}
+
+.topMiddleMapManipulator {
+}

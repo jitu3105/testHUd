@@ -1,0 +1,31 @@
+.gimblascaleContainer {
+  width: 100%;
+  position: relative;
+  color: #fff;
+  font-size: 40%;
+}
+
+.scale {
+  // min-width:10rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Pin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: -150%;
+  left: 50%;
+  transform: translateX(-50%);
+  // width: 3%;
+  height: 150%;
+  & > svg {
+    width: 100%;
+    height: 100%;
+  }
+  //  transform:translateX(-50%);
+}

@@ -1,0 +1,41 @@
+.HeightContainer {
+  width: 50%;
+  margin: 2%;
+  display: flex;
+  //   background: black;
+}
+
+.section {
+  display: flex;
+  height: 3rem;
+  margin: 0.5rem 0;
+  align-items: center;
+  justify-content: center;
+}
+.heightNumber {
+  font-weight: 700;
+  font-size: 3.014rem;
+  color: #fff;
+  padding-right: 0.5rem;
+}
+
+.nameAndUnit {
+  // height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  & > p {
+    display: flex;
+    font-weight: 900;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    font-size: 1rem;
+    // display: flex;
+  }
+}
+
+.Unit {
+  text-transform: uppercase;
+}

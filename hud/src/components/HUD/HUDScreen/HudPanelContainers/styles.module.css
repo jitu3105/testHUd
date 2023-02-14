@@ -1,0 +1,103 @@
+.rightMidContainer {
+  position: absolute;
+  right: 2vh;
+  top: 60%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 20%;
+}
+
+.rightTopContainer {
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  height: 4%;
+  max-height: 1.75rem;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.rightTopContainer > svg {
+  width: 100%;
+  height: 100%;
+}
+
+.leftMidContainer {
+  position: absolute;
+  left: 2%;
+  top: 60%;
+  width: 20%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.leftTopContainer {
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  height: 12%;
+  width: 20%;
+  min-width: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.row {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.row > div {
+  margin-right: 2vh;
+}
+
+.topMiddleContainer {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  width: 30%;
+  height: 20vh;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+/*# sourceMappingURL=styles.module.css.map */

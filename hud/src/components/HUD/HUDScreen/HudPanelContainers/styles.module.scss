@@ -1,0 +1,78 @@
+.rightMidContainer {
+  position: absolute;
+  right: 2vh;
+  top: 60%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 20%;
+  // background:red;
+}
+
+.rightTopContainer {
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  height: 4%;
+  max-height: 1.75rem;
+  z-index: 2;
+  // width: 10%;
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  & > svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.leftMidContainer {
+  position: absolute;
+  left: 2%;
+  top: 60%;
+  width: 20%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  // align-items: flex-start;
+  // justify-content: flex-start;
+  // background:red;
+}
+
+.leftTopContainer {
+  position: absolute;
+  left: 2%;
+  top: 2%;
+  height: 12%;
+  width: 20%;
+  min-width: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  // background:red;
+}
+
+.row {
+  // display: flex;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  margin-bottom: 1rem;
+  align-items: center;
+  & > div {
+    margin-right: 2vh;
+  }
+}
+
+.topMiddleContainer {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  width: 30%;
+  height: 20vh;
+  transform: translateX(-50%);
+  // background:pink;
+}
